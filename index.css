@@ -1,0 +1,62 @@
+a {
+  color: black;
+  font-size: 20px;
+}
+h1 {
+  color: black;
+  font-size: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.Download {
+  height: 50px;
+  width: 100px;
+  background-color: #04ddb2;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+.bgcontainer {
+  height: 400px;
+  width: 600px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 60px;
+}
+.mainimage {
+  display: flex;
+  justify-content: center;
+}
+.Leave {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+hr {
+  margin-top: 60px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
